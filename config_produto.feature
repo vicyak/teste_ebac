@@ -16,5 +16,8 @@ Dado que acesse um produto
 Quando clicar em Limpar
 Então O estado original é reestabelecido
 
-
+Cenario: Adicionar mais do que 10 produtos
+Dado que acesse acesse um produto
+Quando selecionar cor, tamanho e quantidade de 15 produtos
+Então não é possivel adicionar ao carrinho
 

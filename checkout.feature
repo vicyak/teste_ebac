@@ -8,13 +8,7 @@ Para finalizar minha compra
 
 Cenario: Preenchimento correto
 Dado que selecionei os produtos e fiz o Checkout
-Quando preencher <nome>
-E <sobrenome>
-E <pais>
-E <endereco>
-E <cidade>
-E <cep>
-E <telefone>
+Quando preencher <nome>,<sobrenome>,<pais>,<endereco>,<cidade>,<cep>,<telefone>
 E <e-mail>
 Entao devo consegir finalizar compra
 
